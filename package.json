@@ -1,7 +1,7 @@
 {
   "name": "scrape-anything---web-ai-agent",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. if the npm project is not already initialized, run the following command to initialize the project: ``` npm init ```",
   "main": "screenshot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "openai": "^4.20.1",
+    "openai": "^4.52.7",
     "puppeteer": "^21.5.2",
-    "puppeteer-extra": "^3.3.6"
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
